@@ -1,1 +1,17 @@
-streamlit
+	time
+	random
+	IPython.display
+	numpy
+	pandas
+	selenium
+	geocoder
+	streamlit
+	sqlite3
+	nltk
+	openrouteservice
+	ipywidgets
+	sklearn
+	webdriver_manager
+	geopy
+	folium
+	streamlit_folium
