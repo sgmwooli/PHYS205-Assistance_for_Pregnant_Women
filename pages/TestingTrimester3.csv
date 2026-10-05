@@ -1,0 +1,5 @@
+﻿vomiting,thrush,yellowing of eyes or skin,fatigue,more frequent urination,decreased pregnancy symptoms,vaginal bleeding,shoulder pain,dizziness,abdominal pain,severe headaches,vision problems,contractions,back pain,Diagnosis
+1,1,1,1,1,0,0,0,0,0,0,0,0,0,infection
+1,0,0,0,0,1,1,1,1,0,0,0,0,0,miscarriage
+1,0,0,0,0,0,1,1,0,1,1,1,0,0,pre-eclampsia
+0,0,0,0,0,0,1,0,0,1,0,0,1,1,placental abruption

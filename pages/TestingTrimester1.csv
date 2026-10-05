@@ -1,0 +1,6 @@
+﻿N/A,vaginal bleeding,more frequent urination,shoulder pain,fatigue,vomiting,abdominal pain,decreased pregnancy symptoms,dizziness,thrush,yellowing of eyes or skin,weight loss,constipation,swelling,blood in urine,Diagnosis
+0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,ectopic pregnancy
+0,1,0,1,,1,1,1,1,0,0,0,0,0,0,miscarriage
+0,0,1,0,1,1,0,0,0,1,1,0,0,0,0,infection
+0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,high blood pressure
+0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,hyperemesis gravidrum
