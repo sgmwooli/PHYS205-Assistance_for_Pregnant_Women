@@ -1,4 +1,4 @@
-IPython.display
+IPython
 numpy
 pandas
 selenium
