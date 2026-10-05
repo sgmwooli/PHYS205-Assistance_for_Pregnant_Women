@@ -7,7 +7,7 @@ streamlit
 nltk
 openrouteservice
 ipywidgets
-sklearn
+scikit-learn
 webdriver_manager
 geopy
 folium
