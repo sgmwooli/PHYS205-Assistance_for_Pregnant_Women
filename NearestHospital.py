@@ -144,8 +144,11 @@ def DirectionsFromPostcodeWeb2(PostCode):
     print(postcode_NoSpace)
 
     # Go to NHS website
-    NHS_WebAddress = f"https://www.nhs.uk/service-search/find-an-accident-and-emergency-service/results/{postcode_NoSpace}"
+    NHS_WebAddress = f"https://www.nhs.uk/service-search/find-an-accident-and-emergency-service/results?location={postcode_NoSpace}"
     driver.get(NHS_WebAddress)  # Nearest Hospital from Postcode
+    print("URL:", driver.current_url)
+    print("TITLE:", driver.title)
+    print("SOURCE:", driver.page_source[:2000])
 
     # Select only open services
     open_services = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "filter_option_0_0")))
