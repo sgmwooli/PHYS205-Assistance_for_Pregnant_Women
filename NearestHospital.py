@@ -9,6 +9,13 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 import geocoder
 
+# options = Options()
+# options.add_argument("--headless")
+# options.add_argument("--no-sandbox")
+# options.add_argument("--disable-dev-shm-usage")
+
+# driver = webdriver.Chrome(options=options)
+
 def CurrentLocation():
     g = geocoder.ip('me')
     latlong = str(g.latlng)
@@ -124,7 +131,14 @@ def DirectionsFromPostcodeWeb(PostCode):
 
 
 def DirectionsFromPostcodeWeb2(PostCode):
-    driver, wait = browser("N")
+    options = Options()
+    options.add_argument("--headless")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    
+    driver = webdriver.Chrome(options=options)
+    
+    driver_, wait = browser("N")
     postcode_caps = PostCode.upper()
     postcode_NoSpace = postcode_caps.replace(' ', '%20')
     print(postcode_NoSpace)
